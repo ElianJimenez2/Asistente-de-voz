@@ -1,5 +1,8 @@
 import subprocess
 import os
+import pyautogui
+import psutil
+import pathlib
 
-
-subprocess.run([""])
+result = subprocess.run(['echo', 'Hello from Emil'], capture_output=True, text=True)
+print(result.stdout)
