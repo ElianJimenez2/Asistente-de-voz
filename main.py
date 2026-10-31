@@ -1,5 +1,3 @@
 import subprocess
 
-
-
-subprocess.run(["brave"])
+subprocess.run(["google"])
