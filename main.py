@@ -1,3 +1,3 @@
 import subprocess
 
-subprocess.run(["google"])
+subprocess.run(["C:\Program Files\BraveSoftware\Brave-Browser\Application\Brave.exe"])
