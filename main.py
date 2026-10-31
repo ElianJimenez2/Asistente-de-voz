@@ -1,3 +1,5 @@
 import subprocess
+import os
 
-subprocess.run(["C:\Program Files\BraveSoftware\Brave-Browser\Application\Brave.exe"])
+
+subprocess.run([""])
