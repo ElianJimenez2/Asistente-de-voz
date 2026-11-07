@@ -1,7 +1,7 @@
 import subprocess
 
-resultado = subprocess.run(["ls", "-l"], capture_output=True, text=True)
+# Recomendado: lista, sin shell
+subprocess.run(["ping", "-c", "1", "google.com"])
 
-print(resultado.stdout)      # lo que imprimió el comando
-print(resultado.stderr)      # los errores, si hubo
-print(resultado.returncode)  # 0 = éxito, otro número = error
+# Con shell: un string, interpretado por la terminal
+subprocess.run("ping -c 1 google.com | grep time", shell=True)
